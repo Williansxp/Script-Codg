@@ -1,0 +1,6 @@
+useradd guest11 -c " Usuário convidado " -s /bin/bash -m -p $( openssl passwd -crypt Senha123 )useradd
+passwd guest11 -e
+useradd willians -c " Usuário convidado " -s /bin/bash -m -p $( openssl passwd -crypt Senha123 )
+passwd Willians -e
+useradd larissa -c " Usuário convidado " -s /bin/bash -m -p $( openssl passwd -crypt Senha123 )
+passwd larissa -e
